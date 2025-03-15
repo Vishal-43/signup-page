@@ -1,0 +1,127 @@
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #e0e0e0, #f8f8f8);
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 380px;
+    text-align: center;
+}
+
+/* Heading */
+.heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+/* Form Styles */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #ffffff;
+    outline: none;
+    color: #fff;
+    background-color: #000;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Checkbox */
+.chakbox {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.chakbox input {
+    margin-right: 8px;
+}
+
+.chakbox a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.chakbox a:hover {
+    text-decoration: underline;
+}
+
+/* Button */
+.btn {
+    background-color: #000000;
+    color: white;
+    border: none;
+    width: 100px;
+    
+    font-size: 1.2em;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    width: 150px;
+    color: #000;
+    border-radius: 5pxpx;
+    border: 1px #000000 solid;
+    transition:  0.5s;
+}
+
+/* Login link */
+.login {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
